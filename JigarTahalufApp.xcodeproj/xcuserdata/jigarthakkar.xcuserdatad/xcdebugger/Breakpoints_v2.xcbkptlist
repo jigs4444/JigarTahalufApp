@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "12E259F2-118C-41F6-BDCE-90879AB52B59"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C94A9517-2E29-487D-90DF-FB3E6264DDEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/Controllers/UniversityList/Interactor/UniversityListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchUniversities(country:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C94A9517-2E29-487D-90DF-FB3E6264DDEA - 166c6d18fe3d3467"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;JigarTahalufApp.University&gt;, JigarTahalufApp.TahalufNetworkError&gt;) -&gt; () in JigarTahalufApp.UniversityListInteractor.fetchUniversities(country: Swift.String) -&gt; ()"
+                  moduleName = "JigarTahalufApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jigarthakkar/Desktop/JigarTahalufApp/JigarTahalufApp/Controllers/UniversityList/Interactor/UniversityListInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "C94A9517-2E29-487D-90DF-FB3E6264DDEA - 166c6d18fe3d350a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;JigarTahalufApp.University&gt;, JigarTahalufApp.TahalufNetworkError&gt;) -&gt; () in JigarTahalufApp.UniversityListInteractor.fetchUniversities(country: Swift.String) -&gt; ()"
+                  moduleName = "JigarTahalufApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jigarthakkar/Desktop/JigarTahalufApp/JigarTahalufApp/Controllers/UniversityList/Interactor/UniversityListInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "433ECE69-4630-47DB-BBA6-FD6EBD4F72C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/Controllers/UniversityList/View/UniversityListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "didRefresh()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "433ECE69-4630-47DB-BBA6-FD6EBD4F72C7 - 1ea998ea9ce72703"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JigarTahalufApp.UniversityListViewController.didRefresh() -&gt; ()"
+                  moduleName = "JigarTahalufApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jigarthakkar/Desktop/JigarTahalufApp/JigarTahalufApp/Controllers/UniversityList/View/UniversityListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "433ECE69-4630-47DB-BBA6-FD6EBD4F72C7 - 1ea998ea9ce72703"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JigarTahalufApp.UniversityListViewController.didRefresh() -&gt; ()"
+                  moduleName = "JigarTahalufApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jigarthakkar/Desktop/JigarTahalufApp/JigarTahalufApp/Controllers/UniversityList/View/UniversityListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4E6FB29-2B49-4B1B-A153-2FA4B97F47F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/Controllers/UniversityList/View/UniversityListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "showUnivesitiesList(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "998302A7-8CF2-4070-9D51-1B2662B5B1D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/NetworkManager/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "request(urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62D5E099-37CA-459E-8A60-E4334844305E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/NetworkManager/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "request(urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7B3B092-14E4-4406-A044-220B7C345F33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/NetworkManager/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "request(urlString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F95F9856-2B0C-4000-BBF3-EC4E29AED665"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/Controllers/UniversityList/Interactor/UniversityListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchUniversities(country:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE599421-4091-4699-B3AB-CC3F1EBB4888"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/Controllers/UniversityList/Presenter/UniversityListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "didLoad(country:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE8816D4-62D6-48B0-8C1A-DD1FB7555427"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JigarTahalufApp/Controllers/UniversityList/Presenter/UniversityListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "didLoad(country:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

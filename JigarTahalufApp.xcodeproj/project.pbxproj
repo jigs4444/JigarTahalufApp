@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25BE48ED2C524FDE000F6FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE48EC2C524FDE000F6FEB /* AppDelegate.swift */; };
+		25BE48EF2C524FDE000F6FEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE48EE2C524FDE000F6FEB /* SceneDelegate.swift */; };
+		25BE48F62C524FDF000F6FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BE48F52C524FDF000F6FEB /* Assets.xcassets */; };
+		25BE48F92C524FDF000F6FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BE48F72C524FDF000F6FEB /* LaunchScreen.storyboard */; };
+		25BE49042C524FDF000F6FEB /* JigarTahalufAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49032C524FDF000F6FEB /* JigarTahalufAppTests.swift */; };
+		25BE490E2C524FDF000F6FEB /* JigarTahalufAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE490D2C524FDF000F6FEB /* JigarTahalufAppUITests.swift */; };
+		25BE49102C524FDF000F6FEB /* JigarTahalufAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE490F2C524FDF000F6FEB /* JigarTahalufAppUITestsLaunchTests.swift */; };
+		25BE49262C525171000F6FEB /* UniversityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49242C525171000F6FEB /* UniversityListViewController.swift */; };
+		25BE49272C525171000F6FEB /* UniversityListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BE49252C525171000F6FEB /* UniversityListViewController.xib */; };
+		25BE492B2C525196000F6FEB /* UniversityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49292C525196000F6FEB /* UniversityListCell.swift */; };
+		25BE492C2C525196000F6FEB /* UniversityListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BE492A2C525196000F6FEB /* UniversityListCell.xib */; };
+		25BE492E2C52532F000F6FEB /* UniversityListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE492D2C52532F000F6FEB /* UniversityListInteractor.swift */; };
+		25BE49302C52533B000F6FEB /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE492F2C52533B000F6FEB /* UniversityListPresenter.swift */; };
+		25BE49322C525346000F6FEB /* UniversityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49312C525346000F6FEB /* UniversityListRouter.swift */; };
+		25BE49342C52535C000F6FEB /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49332C52535C000F6FEB /* University.swift */; };
+		25BE49362C525435000F6FEB /* UniversityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49352C525435000F6FEB /* UniversityListView.swift */; };
+		25BE49382C525472000F6FEB /* UniversityListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49372C525472000F6FEB /* UniversityListInteractorProtocol.swift */; };
+		25BE493A2C525499000F6FEB /* UniversityListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49392C525499000F6FEB /* UniversityListPresenterProtocol.swift */; };
+		25BE493C2C5254D0000F6FEB /* UniversityListInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE493B2C5254D0000F6FEB /* UniversityListInteractorOutputProtocol.swift */; };
+		25BE493E2C52566B000F6FEB /* UniversityListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE493D2C52566B000F6FEB /* UniversityListService.swift */; };
+		25BE49412C5256C3000F6FEB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49402C5256C3000F6FEB /* NetworkManager.swift */; };
+		25BE49442C525711000F6FEB /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49432C525711000F6FEB /* AppConstants.swift */; };
+		25BE49472C525763000F6FEB /* UniversityListServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49462C525763000F6FEB /* UniversityListServiceProtocol.swift */; };
+		25BE49492C5259DF000F6FEB /* UniversityListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49482C5259DF000F6FEB /* UniversityListRouterProtocol.swift */; };
+		25BE494B2C525FD1000F6FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BE494A2C525FD1000F6FEB /* Main.storyboard */; };
+		25BE49512C5260FB000F6FEB /* UniversityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49502C5260FB000F6FEB /* UniversityDetailView.swift */; };
+		25BE49542C526117000F6FEB /* UniversityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49522C526117000F6FEB /* UniversityDetailViewController.swift */; };
+		25BE49552C526117000F6FEB /* UniversityDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BE49532C526117000F6FEB /* UniversityDetailViewController.xib */; };
+		25BE49572C52642F000F6FEB /* UniversityDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49562C52642F000F6FEB /* UniversityDetailPresenter.swift */; };
+		25BE49592C526442000F6FEB /* UniversityDetailPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49582C526442000F6FEB /* UniversityDetailPresenterProtocol.swift */; };
+		25BE495B2C526475000F6FEB /* UniversityDetailInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE495A2C526475000F6FEB /* UniversityDetailInteractorProtocol.swift */; };
+		25BE495D2C52648F000F6FEB /* UniversityDetailRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE495C2C52648F000F6FEB /* UniversityDetailRouterProtocol.swift */; };
+		25BE495F2C5264B0000F6FEB /* UniversityDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE495E2C5264B0000F6FEB /* UniversityDetailRouter.swift */; };
+		25BE49612C5264D6000F6FEB /* UniversityDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49602C5264D6000F6FEB /* UniversityDetailInteractor.swift */; };
+		25BE49642C526802000F6FEB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 25BE49632C526802000F6FEB /* RealmSwift */; };
+		25BE49662C526817000F6FEB /* UniversityRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49652C526817000F6FEB /* UniversityRealm.swift */; };
+		25BE49682C527216000F6FEB /* UniversityListServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49672C527216000F6FEB /* UniversityListServiceTests.swift */; };
+		25BE496A2C52727A000F6FEB /* UniversityListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49692C52727A000F6FEB /* UniversityListInteractorTests.swift */; };
+		25BE496D2C527504000F6FEB /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49332C52535C000F6FEB /* University.swift */; };
+		25BE496E2C52750A000F6FEB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49402C5256C3000F6FEB /* NetworkManager.swift */; };
+		25BE496F2C527514000F6FEB /* UniversityListServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49462C525763000F6FEB /* UniversityListServiceProtocol.swift */; };
+		25BE49702C527597000F6FEB /* UniversityListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49482C5259DF000F6FEB /* UniversityListRouterProtocol.swift */; };
+		25BE49712C52759D000F6FEB /* UniversityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49352C525435000F6FEB /* UniversityListView.swift */; };
+		25BE49722C527606000F6FEB /* UniversityListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BE49372C525472000F6FEB /* UniversityListInteractorProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25BE49002C524FDF000F6FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BE48E12C524FDE000F6FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BE48E82C524FDE000F6FEB;
+			remoteInfo = JigarTahalufApp;
+		};
+		25BE490A2C524FDF000F6FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BE48E12C524FDE000F6FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BE48E82C524FDE000F6FEB;
+			remoteInfo = JigarTahalufApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25BE48E92C524FDE000F6FEB /* JigarTahalufApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigarTahalufApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BE48EC2C524FDE000F6FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25BE48EE2C524FDE000F6FEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25BE48F52C524FDF000F6FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25BE48F82C524FDF000F6FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25BE48FA2C524FDF000F6FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BE48FF2C524FDF000F6FEB /* JigarTahalufAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigarTahalufAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BE49032C524FDF000F6FEB /* JigarTahalufAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigarTahalufAppTests.swift; sourceTree = "<group>"; };
+		25BE49092C524FDF000F6FEB /* JigarTahalufAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigarTahalufAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BE490D2C524FDF000F6FEB /* JigarTahalufAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigarTahalufAppUITests.swift; sourceTree = "<group>"; };
+		25BE490F2C524FDF000F6FEB /* JigarTahalufAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigarTahalufAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25BE49242C525171000F6FEB /* UniversityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListViewController.swift; sourceTree = "<group>"; };
+		25BE49252C525171000F6FEB /* UniversityListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityListViewController.xib; sourceTree = "<group>"; };
+		25BE49292C525196000F6FEB /* UniversityListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListCell.swift; sourceTree = "<group>"; };
+		25BE492A2C525196000F6FEB /* UniversityListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityListCell.xib; sourceTree = "<group>"; };
+		25BE492D2C52532F000F6FEB /* UniversityListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListInteractor.swift; sourceTree = "<group>"; };
+		25BE492F2C52533B000F6FEB /* UniversityListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListPresenter.swift; sourceTree = "<group>"; };
+		25BE49312C525346000F6FEB /* UniversityListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListRouter.swift; sourceTree = "<group>"; };
+		25BE49332C52535C000F6FEB /* University.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		25BE49352C525435000F6FEB /* UniversityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListView.swift; sourceTree = "<group>"; };
+		25BE49372C525472000F6FEB /* UniversityListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListInteractorProtocol.swift; sourceTree = "<group>"; };
+		25BE49392C525499000F6FEB /* UniversityListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListPresenterProtocol.swift; sourceTree = "<group>"; };
+		25BE493B2C5254D0000F6FEB /* UniversityListInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListInteractorOutputProtocol.swift; sourceTree = "<group>"; };
+		25BE493D2C52566B000F6FEB /* UniversityListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListService.swift; sourceTree = "<group>"; };
+		25BE49402C5256C3000F6FEB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		25BE49432C525711000F6FEB /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		25BE49462C525763000F6FEB /* UniversityListServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListServiceProtocol.swift; sourceTree = "<group>"; };
+		25BE49482C5259DF000F6FEB /* UniversityListRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListRouterProtocol.swift; sourceTree = "<group>"; };
+		25BE494A2C525FD1000F6FEB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		25BE49502C5260FB000F6FEB /* UniversityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailView.swift; sourceTree = "<group>"; };
+		25BE49522C526117000F6FEB /* UniversityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailViewController.swift; sourceTree = "<group>"; };
+		25BE49532C526117000F6FEB /* UniversityDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityDetailViewController.xib; sourceTree = "<group>"; };
+		25BE49562C52642F000F6FEB /* UniversityDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailPresenter.swift; sourceTree = "<group>"; };
+		25BE49582C526442000F6FEB /* UniversityDetailPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailPresenterProtocol.swift; sourceTree = "<group>"; };
+		25BE495A2C526475000F6FEB /* UniversityDetailInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailInteractorProtocol.swift; sourceTree = "<group>"; };
+		25BE495C2C52648F000F6FEB /* UniversityDetailRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailRouterProtocol.swift; sourceTree = "<group>"; };
+		25BE495E2C5264B0000F6FEB /* UniversityDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailRouter.swift; sourceTree = "<group>"; };
+		25BE49602C5264D6000F6FEB /* UniversityDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailInteractor.swift; sourceTree = "<group>"; };
+		25BE49652C526817000F6FEB /* UniversityRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityRealm.swift; sourceTree = "<group>"; };
+		25BE49672C527216000F6FEB /* UniversityListServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListServiceTests.swift; sourceTree = "<group>"; };
+		25BE49692C52727A000F6FEB /* UniversityListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityListInteractorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25BE48E62C524FDE000F6FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BE49642C526802000F6FEB /* RealmSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BE48FC2C524FDF000F6FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BE49062C524FDF000F6FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25BE48E02C524FDE000F6FEB = {
+			isa = PBXGroup;
+			children = (
+				25BE48EB2C524FDE000F6FEB /* JigarTahalufApp */,
+				25BE49022C524FDF000F6FEB /* JigarTahalufAppTests */,
+				25BE490C2C524FDF000F6FEB /* JigarTahalufAppUITests */,
+				25BE48EA2C524FDE000F6FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25BE48EA2C524FDE000F6FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25BE48E92C524FDE000F6FEB /* JigarTahalufApp.app */,
+				25BE48FF2C524FDF000F6FEB /* JigarTahalufAppTests.xctest */,
+				25BE49092C524FDF000F6FEB /* JigarTahalufAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25BE48EB2C524FDE000F6FEB /* JigarTahalufApp */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49422C525701000F6FEB /* Constants */,
+				25BE493F2C5256B2000F6FEB /* NetworkManager */,
+				25BE491C2C525035000F6FEB /* Controllers */,
+				25BE48EC2C524FDE000F6FEB /* AppDelegate.swift */,
+				25BE48EE2C524FDE000F6FEB /* SceneDelegate.swift */,
+				25BE494A2C525FD1000F6FEB /* Main.storyboard */,
+				25BE48F52C524FDF000F6FEB /* Assets.xcassets */,
+				25BE48F72C524FDF000F6FEB /* LaunchScreen.storyboard */,
+				25BE48FA2C524FDF000F6FEB /* Info.plist */,
+			);
+			path = JigarTahalufApp;
+			sourceTree = "<group>";
+		};
+		25BE49022C524FDF000F6FEB /* JigarTahalufAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49032C524FDF000F6FEB /* JigarTahalufAppTests.swift */,
+				25BE49672C527216000F6FEB /* UniversityListServiceTests.swift */,
+				25BE49692C52727A000F6FEB /* UniversityListInteractorTests.swift */,
+			);
+			path = JigarTahalufAppTests;
+			sourceTree = "<group>";
+		};
+		25BE490C2C524FDF000F6FEB /* JigarTahalufAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25BE490D2C524FDF000F6FEB /* JigarTahalufAppUITests.swift */,
+				25BE490F2C524FDF000F6FEB /* JigarTahalufAppUITestsLaunchTests.swift */,
+			);
+			path = JigarTahalufAppUITests;
+			sourceTree = "<group>";
+		};
+		25BE491C2C525035000F6FEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25BE491D2C52503C000F6FEB /* ModuleA */,
+				25BE491E2C52504A000F6FEB /* ModuleB */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25BE491D2C52503C000F6FEB /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49232C5250BD000F6FEB /* Router */,
+				25BE49222C5250B8000F6FEB /* Entity */,
+				25BE49202C5250AB000F6FEB /* Interactor */,
+				25BE49212C5250B1000F6FEB /* Presenter */,
+				25BE491F2C525076000F6FEB /* View */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		25BE491E2C52504A000F6FEB /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				25BE494F2C526072000F6FEB /* Router */,
+				25BE494E2C52606C000F6FEB /* Interactor */,
+				25BE494D2C526066000F6FEB /* Presenter */,
+				25BE494C2C52605C000F6FEB /* View */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		25BE491F2C525076000F6FEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49282C525174000F6FEB /* SubViews */,
+				25BE49242C525171000F6FEB /* UniversityListViewController.swift */,
+				25BE49252C525171000F6FEB /* UniversityListViewController.xib */,
+				25BE49352C525435000F6FEB /* UniversityListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25BE49202C5250AB000F6FEB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49452C52574B000F6FEB /* WebService */,
+				25BE492D2C52532F000F6FEB /* UniversityListInteractor.swift */,
+				25BE49372C525472000F6FEB /* UniversityListInteractorProtocol.swift */,
+				25BE493B2C5254D0000F6FEB /* UniversityListInteractorOutputProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		25BE49212C5250B1000F6FEB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				25BE492F2C52533B000F6FEB /* UniversityListPresenter.swift */,
+				25BE49392C525499000F6FEB /* UniversityListPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		25BE49222C5250B8000F6FEB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49332C52535C000F6FEB /* University.swift */,
+				25BE49652C526817000F6FEB /* UniversityRealm.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		25BE49232C5250BD000F6FEB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49312C525346000F6FEB /* UniversityListRouter.swift */,
+				25BE49482C5259DF000F6FEB /* UniversityListRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		25BE49282C525174000F6FEB /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49292C525196000F6FEB /* UniversityListCell.swift */,
+				25BE492A2C525196000F6FEB /* UniversityListCell.xib */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		25BE493F2C5256B2000F6FEB /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49402C5256C3000F6FEB /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		25BE49422C525701000F6FEB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49432C525711000F6FEB /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		25BE49452C52574B000F6FEB /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				25BE493D2C52566B000F6FEB /* UniversityListService.swift */,
+				25BE49462C525763000F6FEB /* UniversityListServiceProtocol.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		25BE494C2C52605C000F6FEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49502C5260FB000F6FEB /* UniversityDetailView.swift */,
+				25BE49522C526117000F6FEB /* UniversityDetailViewController.swift */,
+				25BE49532C526117000F6FEB /* UniversityDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25BE494D2C526066000F6FEB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				25BE49562C52642F000F6FEB /* UniversityDetailPresenter.swift */,
+				25BE49582C526442000F6FEB /* UniversityDetailPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		25BE494E2C52606C000F6FEB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				25BE495A2C526475000F6FEB /* UniversityDetailInteractorProtocol.swift */,
+				25BE49602C5264D6000F6FEB /* UniversityDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		25BE494F2C526072000F6FEB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				25BE495C2C52648F000F6FEB /* UniversityDetailRouterProtocol.swift */,
+				25BE495E2C5264B0000F6FEB /* UniversityDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25BE48E82C524FDE000F6FEB /* JigarTahalufApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BE49132C524FDF000F6FEB /* Build configuration list for PBXNativeTarget "JigarTahalufApp" */;
+			buildPhases = (
+				25BE48E52C524FDE000F6FEB /* Sources */,
+				25BE48E62C524FDE000F6FEB /* Frameworks */,
+				25BE48E72C524FDE000F6FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JigarTahalufApp;
+			packageProductDependencies = (
+				25BE49632C526802000F6FEB /* RealmSwift */,
+			);
+			productName = JigarTahalufApp;
+			productReference = 25BE48E92C524FDE000F6FEB /* JigarTahalufApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25BE48FE2C524FDF000F6FEB /* JigarTahalufAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BE49162C524FDF000F6FEB /* Build configuration list for PBXNativeTarget "JigarTahalufAppTests" */;
+			buildPhases = (
+				25BE48FB2C524FDF000F6FEB /* Sources */,
+				25BE48FC2C524FDF000F6FEB /* Frameworks */,
+				25BE48FD2C524FDF000F6FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BE49012C524FDF000F6FEB /* PBXTargetDependency */,
+			);
+			name = JigarTahalufAppTests;
+			productName = JigarTahalufAppTests;
+			productReference = 25BE48FF2C524FDF000F6FEB /* JigarTahalufAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25BE49082C524FDF000F6FEB /* JigarTahalufAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BE49192C524FDF000F6FEB /* Build configuration list for PBXNativeTarget "JigarTahalufAppUITests" */;
+			buildPhases = (
+				25BE49052C524FDF000F6FEB /* Sources */,
+				25BE49062C524FDF000F6FEB /* Frameworks */,
+				25BE49072C524FDF000F6FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BE490B2C524FDF000F6FEB /* PBXTargetDependency */,
+			);
+			name = JigarTahalufAppUITests;
+			productName = JigarTahalufAppUITests;
+			productReference = 25BE49092C524FDF000F6FEB /* JigarTahalufAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25BE48E12C524FDE000F6FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					25BE48E82C524FDE000F6FEB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					25BE48FE2C524FDF000F6FEB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 25BE48E82C524FDE000F6FEB;
+					};
+					25BE49082C524FDF000F6FEB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 25BE48E82C524FDE000F6FEB;
+					};
+				};
+			};
+			buildConfigurationList = 25BE48E42C524FDE000F6FEB /* Build configuration list for PBXProject "JigarTahalufApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25BE48E02C524FDE000F6FEB;
+			packageReferences = (
+				25BE49622C526802000F6FEB /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 25BE48EA2C524FDE000F6FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25BE48E82C524FDE000F6FEB /* JigarTahalufApp */,
+				25BE48FE2C524FDF000F6FEB /* JigarTahalufAppTests */,
+				25BE49082C524FDF000F6FEB /* JigarTahalufAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25BE48E72C524FDE000F6FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BE49272C525171000F6FEB /* UniversityListViewController.xib in Resources */,
+				25BE49552C526117000F6FEB /* UniversityDetailViewController.xib in Resources */,
+				25BE494B2C525FD1000F6FEB /* Main.storyboard in Resources */,
+				25BE48F92C524FDF000F6FEB /* LaunchScreen.storyboard in Resources */,
+				25BE492C2C525196000F6FEB /* UniversityListCell.xib in Resources */,
+				25BE48F62C524FDF000F6FEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BE48FD2C524FDF000F6FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BE49072C524FDF000F6FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25BE48E52C524FDE000F6FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BE49612C5264D6000F6FEB /* UniversityDetailInteractor.swift in Sources */,
+				25BE49512C5260FB000F6FEB /* UniversityDetailView.swift in Sources */,
+				25BE49662C526817000F6FEB /* UniversityRealm.swift in Sources */,
+				25BE49492C5259DF000F6FEB /* UniversityListRouterProtocol.swift in Sources */,
+				25BE495B2C526475000F6FEB /* UniversityDetailInteractorProtocol.swift in Sources */,
+				25BE48ED2C524FDE000F6FEB /* AppDelegate.swift in Sources */,
+				25BE49342C52535C000F6FEB /* University.swift in Sources */,
+				25BE49302C52533B000F6FEB /* UniversityListPresenter.swift in Sources */,
+				25BE49262C525171000F6FEB /* UniversityListViewController.swift in Sources */,
+				25BE493C2C5254D0000F6FEB /* UniversityListInteractorOutputProtocol.swift in Sources */,
+				25BE49322C525346000F6FEB /* UniversityListRouter.swift in Sources */,
+				25BE49572C52642F000F6FEB /* UniversityDetailPresenter.swift in Sources */,
+				25BE48EF2C524FDE000F6FEB /* SceneDelegate.swift in Sources */,
+				25BE492E2C52532F000F6FEB /* UniversityListInteractor.swift in Sources */,
+				25BE493E2C52566B000F6FEB /* UniversityListService.swift in Sources */,
+				25BE493A2C525499000F6FEB /* UniversityListPresenterProtocol.swift in Sources */,
+				25BE49442C525711000F6FEB /* AppConstants.swift in Sources */,
+				25BE49592C526442000F6FEB /* UniversityDetailPresenterProtocol.swift in Sources */,
+				25BE49362C525435000F6FEB /* UniversityListView.swift in Sources */,
+				25BE49412C5256C3000F6FEB /* NetworkManager.swift in Sources */,
+				25BE49382C525472000F6FEB /* UniversityListInteractorProtocol.swift in Sources */,
+				25BE495F2C5264B0000F6FEB /* UniversityDetailRouter.swift in Sources */,
+				25BE492B2C525196000F6FEB /* UniversityListCell.swift in Sources */,
+				25BE49472C525763000F6FEB /* UniversityListServiceProtocol.swift in Sources */,
+				25BE49542C526117000F6FEB /* UniversityDetailViewController.swift in Sources */,
+				25BE495D2C52648F000F6FEB /* UniversityDetailRouterProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BE48FB2C524FDF000F6FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BE49722C527606000F6FEB /* UniversityListInteractorProtocol.swift in Sources */,
+				25BE496E2C52750A000F6FEB /* NetworkManager.swift in Sources */,
+				25BE496F2C527514000F6FEB /* UniversityListServiceProtocol.swift in Sources */,
+				25BE496A2C52727A000F6FEB /* UniversityListInteractorTests.swift in Sources */,
+				25BE49682C527216000F6FEB /* UniversityListServiceTests.swift in Sources */,
+				25BE49042C524FDF000F6FEB /* JigarTahalufAppTests.swift in Sources */,
+				25BE49702C527597000F6FEB /* UniversityListRouterProtocol.swift in Sources */,
+				25BE496D2C527504000F6FEB /* University.swift in Sources */,
+				25BE49712C52759D000F6FEB /* UniversityListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BE49052C524FDF000F6FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BE49102C524FDF000F6FEB /* JigarTahalufAppUITestsLaunchTests.swift in Sources */,
+				25BE490E2C524FDF000F6FEB /* JigarTahalufAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25BE49012C524FDF000F6FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BE48E82C524FDE000F6FEB /* JigarTahalufApp */;
+			targetProxy = 25BE49002C524FDF000F6FEB /* PBXContainerItemProxy */;
+		};
+		25BE490B2C524FDF000F6FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BE48E82C524FDE000F6FEB /* JigarTahalufApp */;
+			targetProxy = 25BE490A2C524FDF000F6FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25BE48F72C524FDF000F6FEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BE48F82C524FDF000F6FEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25BE49112C524FDF000F6FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25BE49122C524FDF000F6FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25BE49142C524FDF000F6FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG4YK36S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JigarTahalufApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jigar.JigarTahalufApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25BE49152C524FDF000F6FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG4YK36S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JigarTahalufApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jigar.JigarTahalufApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25BE49172C524FDF000F6FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG4YK36S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jigar.JigarTahalufAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JigarTahalufApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JigarTahalufApp";
+			};
+			name = Debug;
+		};
+		25BE49182C524FDF000F6FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG4YK36S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jigar.JigarTahalufAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JigarTahalufApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JigarTahalufApp";
+			};
+			name = Release;
+		};
+		25BE491A2C524FDF000F6FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG4YK36S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jigar.JigarTahalufAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JigarTahalufApp;
+			};
+			name = Debug;
+		};
+		25BE491B2C524FDF000F6FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LNG4YK36S6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jigar.JigarTahalufAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JigarTahalufApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25BE48E42C524FDE000F6FEB /* Build configuration list for PBXProject "JigarTahalufApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BE49112C524FDF000F6FEB /* Debug */,
+				25BE49122C524FDF000F6FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BE49132C524FDF000F6FEB /* Build configuration list for PBXNativeTarget "JigarTahalufApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BE49142C524FDF000F6FEB /* Debug */,
+				25BE49152C524FDF000F6FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BE49162C524FDF000F6FEB /* Build configuration list for PBXNativeTarget "JigarTahalufAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BE49172C524FDF000F6FEB /* Debug */,
+				25BE49182C524FDF000F6FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BE49192C524FDF000F6FEB /* Build configuration list for PBXNativeTarget "JigarTahalufAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BE491A2C524FDF000F6FEB /* Debug */,
+				25BE491B2C524FDF000F6FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25BE49622C526802000F6FEB /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 10.49.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25BE49632C526802000F6FEB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25BE49622C526802000F6FEB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 25BE48E12C524FDE000F6FEB /* Project object */;
+}
